@@ -14,6 +14,10 @@ from sklearn.metrics import mean_squared_error
 
 from model import StockReturnNN
 
+# PURPOSE: Load saved dataset
+X = np.load("outputs/X.npy")
+y = np.load("outputs/y.npy")
+
 
 # -------------------------------------------------
 # PURPOSE: Set seed for reproducibility
