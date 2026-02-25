@@ -103,4 +103,4 @@ for epoch in range(1, epochs + 1):
 torch.save(model.state_dict(), "stock_return_nn.pt")
 joblib.dump(scaler, "scaler.pkl")
 
-print("✅ Saved: stock_return_nn.pt and scaler.pkl")
+print("Saved: stock_return_nn.pt and scaler.pkl")
