@@ -36,6 +36,6 @@ with torch.no_grad():
 np.save("outputs/y_pred.npy", y_pred)
 
 # PURPOSE: Print quick check
-print("✅ Saved predictions to outputs/y_pred.npy")
+print("Saved predictions to outputs/y_pred.npy")
 print("y_pred shape:", y_pred.shape)
 print("First 5 predictions:", y_pred[:5].reshape(-1))
